@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import axios from 'axios';
+import Field from './Field.jsx';
 
 class Home extends Component{
 
@@ -31,6 +32,7 @@ class Home extends Component{
               </Link>
               <p>{post.body}</p>
             </div>
+          <Field/>
           </div>
         )  
       })
