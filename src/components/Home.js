@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import axios from 'axios';
-import Field from './Field.jsx';
 
 class Home extends Component{
 
@@ -42,7 +41,6 @@ class Home extends Component{
       <div className="container">
         <h4 className="center">Home</h4>
         {postLists}
-      <Field/>
       </div>
     )
   }
